@@ -1,0 +1,25 @@
+spring:
+  config:
+    activate:
+      on-profile: test
+name: test
+environment: testing
+client: http://localhost:8585
+
+---
+spring:
+  config:
+    activate:
+      on-profile: staging
+name: staging
+environment: development
+client: https://tastedive.com/api/similar
+
+---
+spring:
+  config:
+    activate:
+      on-profile: prod
+name: prod
+environment: production
+client: https://tastedive.com/api/similar
