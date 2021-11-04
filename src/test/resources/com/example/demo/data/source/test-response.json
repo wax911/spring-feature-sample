@@ -1,0 +1,40 @@
+{
+  "Similar": {
+    "Info": [
+      {
+        "Name": "Red Hot Chili Peppers",
+        "Type": "music",
+        "wTeaser": "The Red Hot Chili Peppers are an American rock band formed in Los Angeles in 1983. Their music incorporates elements of alternative rock, funk, punk rock and psychedelic rock. The band consists of vocalist Anthony Kiedis, bassist Flea, drummer Chad Smith, and guitarist John Frusciante. With over 80 million records sold worldwide, the Red Hot Chili Peppers are one of the best-selling bands of all time. They are the most successful band in the history of alternative rock, with the records for most number-one singles (13), most cumulative weeks at number one (85) and most top-ten songs (25) on the Billboard Alternative Songs chart. They have won six Grammy Awards, and in 2012 were inducted into the Rock and Roll Hall of Fame.",
+        "wUrl": "http://en.wikipedia.org/wiki/Red_Hot_Chili_Peppers_(band)",
+        "yUrl": "https://www.youtube-nocookie.com/embed/A0QkGThnKNQ",
+        "yID": "A0QkGThnKNQ"
+      },
+      {
+        "Name": "Pulp Fiction",
+        "Type": "movie",
+        "wTeaser": "Pulp Fiction is a 1994 American neo-noir black comedy crime film written and directed by Quentin Tarantino, who conceived it with Roger Avary. Starring John Travolta, Samuel L. Jackson, Bruce Willis, Tim Roth, Ving Rhames, and Uma Thurman, it tells several stories of criminal Los Angeles. The title refers to the pulp magazines and hardboiled crime novels popular during the mid-20th century, known for their graphic violence and punchy dialogue.Tarantino wrote Pulp Fiction in 1992 and 1993, incorporating scenes that Avary originally wrote for True Romance (1993). Its plot occurs out of chronological order. The film is also self-referential from its opening moments, beginning with a title card that gives two dictionary definitions of \"pulp\". Considerable screen time is devoted to monologues and casual conversations with eclectic dialogue revealing each character's perspectives on several subjects, and the film features an ironic combination of humor and strong violence. TriStar Pictures reportedly turned down the script as \"too demented\". Then Miramax co-chairman Harvey Weinstein was enthralled, however, and the film became the first that Miramax fully financed.",
+        "wUrl": "https://en.wikipedia.org/wiki/Pulp_Fiction",
+        "yUrl": "https://www.youtube-nocookie.com/embed/s7EdQ4FqbhY",
+        "yID": "s7EdQ4FqbhY"
+      }
+    ],
+    "Results": [
+      {
+        "Name": "Nirvana",
+        "Type": "music",
+        "wTeaser": "Nirvana was an American rock band formed in Aberdeen, Washington in 1987. Founded by lead singer and guitarist Kurt Cobain and bassist Krist Novoselic, the band went through a succession of drummers before recruiting Dave Grohl in 1990. Nirvana's success popularized alternative rock, and they were often referenced as the figurehead band of Generation X. Their music maintains a popular following and continues to influence modern rock and roll culture.In the late 1980s, Nirvana established itself as part of the Seattle grunge scene, releasing its first album, Bleach, for the independent record label Sub Pop in 1989. They developed a sound that relied on dynamic contrasts, often between quiet verses and loud, heavy choruses. After signing to major label DGC Records in 1991, Nirvana found unexpected mainstream success with \"Smells Like Teen Spirit\", the first single from their landmark second album Nevermind (1991). A cultural phenomenon of the 1990s, Nevermind was certified Diamond by the RIAA and is credited for ending the dominance of hair metal.",
+        "wUrl": "http://en.wikipedia.org/wiki/Ted_Ed_Fred",
+        "yUrl": "https://www.youtube-nocookie.com/embed/hTWKbfoikeg",
+        "yID": "hTWKbfoikeg"
+      },
+      {
+        "Name": "Foo Fighters",
+        "Type": "music",
+        "wTeaser": "Foo Fighters is an American rock band formed in Seattle, Washington, in 1994. It was founded by former Nirvana drummer Dave Grohl as a one-man project following the dissolution of Nirvana after the suicide of Kurt Cobain. The group took its name from \"Foo fighter\", a nickname coined by Allied aircraft pilots for UFOs and other aerial phenomena. Over the course of their career, Foo Fighters have won 12 Grammy Awards, including Best Rock Album four times. The band has also won an American Music Award, four Brit Awards, and two MTV Video Music Awards. As of 2015, Foo Fighters have sold over 12 million albums in the U.S.Prior to the release of Foo Fighters' 1995 debut album Foo Fighters, which featured Grohl as the only official member, Grohl recruited bassist Nate Mendel and drummer William Goldsmith, both formerly of Sunny Day Real Estate, as well as Nirvana touring guitarist Pat Smear. The band began with performances in Portland, Oregon. Goldsmith quit during the recording of their second album, The Colour and the Shape (1997); most of the drum parts were re-recorded by Grohl. Smear departed soon afterward but appeared as a guest with the band frequently from 2005; he rejoined the band in 2010.",
+        "wUrl": "http://en.wikipedia.org/wiki/Foo_Fighters_(band)",
+        "yUrl": "https://www.youtube-nocookie.com/embed/O6cVpDO40lM",
+        "yID": "O6cVpDO40lM"
+      }
+    ]
+  }
+}
