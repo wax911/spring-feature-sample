@@ -1,0 +1,149 @@
+swagger: "2.0"
+info:
+  title: "Spring Feature Sample"
+  description: "A sample project that proxies a several services"
+  termsOfService: "https://tastedive.com/read/api"
+  version: "1.0.0"
+  contact:
+    name: "wax911"
+  license:
+    name: "Apache 2.0"
+    url: "http://www.apache.org/licenses/LICENSE-2.0.html"
+tags:
+  - name: show
+    description: Operations about similar shows
+    externalDocs:
+      description: Find out more about our store
+      url: http://swagger.io
+  - name: movie
+    description: Operations about similar movies
+    externalDocs:
+      description: Find out more about our store
+      url: http://swagger.io
+  - name: game
+    description: Operations about similar games
+    externalDocs:
+      description: Find out more about our store
+      url: http://swagger.io
+host: "localhost:8080"
+basePath: "/v1"
+schemes:
+  - "http"
+paths:
+  /search/game:
+    post:
+      tags:
+        - "game"
+      operationId: findGames
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: query
+          name: limit
+          description: Number of items to return
+          required: true
+          type: integer
+        - in: query
+          name: term
+          description: The search query term
+          required: true
+          type: string
+      responses:
+        "200":
+          description: Success
+          schema:
+            type: object
+            $ref: "#/definitions/ContainerModel"
+        404:
+          descrition: Not found
+        500:
+          descrition: Here be dragons
+        default:
+          descrition: What a terrible failure
+  /search/show:
+    post:
+      tags:
+        - "show"
+      operationId: findShows
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: query
+          name: limit
+          description: Number of items to return
+          required: true
+          type: integer
+        - in: query
+          name: term
+          description: The search query term
+          required: true
+          type: string
+      responses:
+        "200":
+          description: Success
+          schema:
+            type: object
+            $ref: "#/definitions/ContainerModel"
+        404:
+          descrition: Not found
+        500:
+          descrition: Here be dragons
+        default:
+          descrition: What a terrible failure
+  /search/movie:
+    post:
+      tags:
+        - "movie"
+      operationId: findMovies
+      consumes:
+        - application/json
+      produces:
+        - application/json
+      parameters:
+        - in: query
+          name: limit
+          description: Number of items to return
+          required: true
+          type: integer
+        - in: query
+          name: term
+          description: The search query term
+          required: true
+          type: string
+      responses:
+        "200":
+          description: Success
+          schema:
+            type: object
+            $ref: "#/definitions/ContainerModel"
+        404:
+          descrition: Not found
+        500:
+          descrition: Here be dragons
+        default:
+          descrition: What a terrible failure
+definitions:
+  ContainerModel:
+    type: object
+    properties:
+      data:
+        type: array
+        items:
+          $ref: "#/definitions/ResultModel"
+  ResultModel:
+    type: object
+    properties:
+      id:
+        type: integer
+      title:
+        type: string
+      category:
+        type: string
+      wikipedia:
+        type: string
+      youtube:
+        type: string
