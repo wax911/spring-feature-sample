@@ -1,0 +1,7 @@
+hazelcast:
+  network:
+    public-address: pophub.lan
+    join:
+      multicast:
+        enabled: true
+        time-to-live-seconds: 10000
