@@ -6,7 +6,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public final class Similar {
+public class Similar {
     @SerializedName("info") private List<Item> info;
     @SerializedName("results") private List<Item> results;
 }
