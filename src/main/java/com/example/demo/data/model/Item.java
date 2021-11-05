@@ -1,9 +1,12 @@
 package com.example.demo.data.model;
 
 import com.google.gson.annotations.SerializedName;
-import lombok.Data;
+import lombok.*;
 
-@Data
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public final class Item {
     @SerializedName("Name") private String name;
     @SerializedName("Type") private String type;
